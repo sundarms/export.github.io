@@ -605,7 +605,7 @@ body .carousel-inner > .active {
   border-top: 1px solid #f2f2f2;
 }
 .footer-widgets p {
-  color: #999999;
+  color: #000000;
   margin-bottom: 0;
 }
 .footer-widgets p + p {
@@ -649,28 +649,28 @@ body .carousel-inner > .active {
 }
 
 
-.testimonials-container {
-  background: url(../images/testimonials-bg.png) repeat-x;
+.certification-container {
+  background: url(../images/certification-bg.png) repeat-x;
   padding: 50px 0;
   padding-bottom: 40px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
 }
-.testimonials-container .testimonials blockquote {
+.certification-container .certification blockquote {
   margin: 0;
   padding: 0;
   text-align: center;
   color: #9298a1;
   border: 0;
 }
-.testimonials-container .testimonials blockquote p {
+.certification-container .certification blockquote p {
   font-size: 21px;
   font-style: italic;
   font-weight: 400;
   margin: 0;
 }
-.testimonials-container .testimonials blockquote p:after {
+.certification-container .certification blockquote p:after {
   content: '\2014 \00A0';
   display: block;
   text-align: center;
@@ -682,21 +682,21 @@ body .carousel-inner > .active {
   filter: alpha(opacity=50);
   margin-top: 10px;
 }
-.testimonials-container .testimonials blockquote small {
+.certification-container .certification blockquote small {
   margin-top: 10px;
   color: #9298a1;
 }
-.testimonials-container .testimonials blockquote small:before {
+.certification-container .certification blockquote small:before {
   display: none;
 }
-.testimonials-container .testimonials blockquote small cite {
+.certification-container .certification blockquote small cite {
   color: #fff;
 }
-.testimonials-container .testimonials-nav {
+.certification-container .certification-nav {
   margin-top: 30px;
   text-align: center;
 }
-.testimonials-container .testimonials-nav a {
+.certification-container .certification-nav a {
   display: inline-block;
   background: #fff;
   overflow: hidden;
@@ -720,8 +720,8 @@ body .carousel-inner > .active {
   -o-transition: all 600ms;
   transition: all 600ms;
 }
-.testimonials-container .testimonials-nav a.active,
-.testimonials-container .testimonials-nav a:hover {
+.certification-container .certification-nav a.active,
+.certification-container .certification-nav a:hover {
   zoom: 1;
   -webkit-opacity: 1;
   -moz-opacity: 1;
@@ -751,7 +751,7 @@ body .carousel-inner > .active {
 }
 .features-blocks .feature-block p {
   padding-left: 40px;
-  color: #999999;
+  color: #000000;
 }
 .portfolio-widget {
   margin: 50px 0;
