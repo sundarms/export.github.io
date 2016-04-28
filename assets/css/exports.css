@@ -648,11 +648,10 @@ body .carousel-inner > .active {
   display: inline-block;
 }
 
-
 .certification-container {
   background: url(../images/certification-bg.png) repeat-x;
-  padding: 50px 0;
-  padding-bottom: 40px;
+  padding: 20px 0;
+  padding-bottom: 20px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
