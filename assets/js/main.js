@@ -304,15 +304,15 @@ function trigger_resizable() {
     });
     // Clients Logos Carousel
     $(".client-logos").carousel();
-    // Testimonials Carousel
-    $(".testimonials").each(function(i, el) {
+    // Certification Carousel
+    $(".certification").each(function(i, el) {
       var $this = $(el),
         items_count = $this.find('.item').length;
       $this.carousel({
         //interval: 7000
       });
       if (items_count > 1) {
-        var $tnav = $('<div class="testimonials-nav"></div>');
+        var $tnav = $('<div class="certification-nav"></div>');
         for (var i = 0; i < items_count; i++) {
           $tnav.append('<a href="#" data-index="' + i + '"></a>');
         }
