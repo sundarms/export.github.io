@@ -149,6 +149,7 @@ body .carousel-inner > .active {
   display: table;
   width: 100%;
   position: relative;
+  text-align: center;
 }
 .site-header .site-nav,
 .site-header .site-logo {
@@ -601,7 +602,7 @@ body .carousel-inner > .active {
   }
 }
 .footer-widgets {
-  padding: 60px 0;
+  padding: 20px 0;
   border-top: 1px solid #f2f2f2;
 }
 .footer-widgets p {
@@ -2038,7 +2039,7 @@ section.blog .sidebar .sidebar-content .discussion-list li .details p {
     width: 10%;
   }
   .footer-widgets {
-    padding: 40px 0;
+    padding: 20px 0;
   }
   .footer-widgets .container .row h5 {
     margin-top: 40px;
