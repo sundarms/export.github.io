@@ -4,6 +4,16 @@
 .isotope-item {
   z-index: 2;
 }
+:root{
+    /* --header-ribbon-color:rgb(66, 133, 244); */
+    --header-ribbon-color:dodgerblue;
+    --header-font-color: white;
+    --header-font-hover-color:darkgray;
+    --header-font-hover-bg-color:none;
+    --header-font-active-color: white;
+    --header-font-active-bg-color: blue;
+    color:
+}
 .isotope-hidden.isotope-item {
   pointer-events: none;
   z-index: 1;
@@ -149,7 +159,7 @@ body .carousel-inner > .active {
   display: table;
   width: 100%;
   position: relative;
-  text-align: left;
+  text-align: left;    
 }
 .site-header .site-nav,
 .site-header .site-logo {
@@ -158,6 +168,7 @@ body .carousel-inner > .active {
   vertical-align: middle;
   padding-top: 10px;
   padding-bottom: 10px;
+  background: var(--header-ribbon-color);
 }
  .site-logo {
   display: table-cell;
@@ -169,6 +180,7 @@ body .carousel-inner > .active {
 }
 .site-header .site-logo a {
   display: inline-block;
+  color: var(--header-font-color);
 }
 .site-header .site-nav .selectnav {
   width: 100%;
@@ -188,6 +200,7 @@ body .carousel-inner > .active {
   position: relative;
   display: inline-block;
   outline: 0;
+  color: var(--header-font-color);
   font-family: inherit;
   -moz-transition: padding 300ms;
   -webkit-transition: padding 300ms;
@@ -195,7 +208,8 @@ body .carousel-inner > .active {
   transition: padding 300ms;
 }
 .site-header .site-nav .main-menu li a:hover {
-  color: #464e5e;
+  color: var(--header-font-hover-color);
+  background: var(--header-font-hover-bg-color);      
 }
 .site-header .site-nav .main-menu li .has-sub > a:before {
   font-family: 'entypo';
@@ -237,7 +251,6 @@ body .carousel-inner > .active {
   border: 1px solid transparent;
   border-bottom: 1px solid #fff;
   padding: 10px 10px;
-  background: #fff;
   -webkit-border-radius: 4px 4px 0 0;
   -webkit-background-clip: padding-box;
   -moz-border-radius: 4px 4px 0 0;
@@ -277,11 +290,11 @@ body .carousel-inner > .active {
 }
 .site-header .site-nav .main-menu > li.active > a {
   display: inline-block;
-  color: #ff4e50;
-  background-color: darkgrey;
+  color: var(--header-font-active-color);
+  background-color: var(--header-font-active-bg-color);
 }
 .site-header .site-nav .main-menu > li.active > a > span:after {
-  background: rgba(255, 78, 80, 0.7);
+  background: var(--header-font-active-color);
 }
 .site-header .site-nav .main-menu > li.search {
   z-index: 10;
