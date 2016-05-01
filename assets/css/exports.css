@@ -149,7 +149,7 @@ body .carousel-inner > .active {
   display: table;
   width: 100%;
   position: relative;
-  text-align: center;
+  text-align: left;
 }
 .site-header .site-nav,
 .site-header .site-logo {
@@ -650,12 +650,14 @@ body .carousel-inner > .active {
 }
 
 .certification-container {
-  background: url(../images/certification-bg.png) repeat-x;
+  #background: url(../images/certification-bg.png) repeat-x;
   padding: 20px 0;
   padding-bottom: 20px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
+  padding-top: 20px;
+  border-top: 1px solid #f2f2f2;
 }
 .certification-container .certification blockquote {
   margin: 0;
@@ -696,6 +698,21 @@ body .carousel-inner > .active {
   margin-top: 30px;
   text-align: center;
 }
+.cert-item {
+  text-align: center;
+}
+
+.cert-item .image img {
+  max-height: 100px;
+  max-width: 210px;
+  min-height: 100px;
+  min-width: 100px
+}
+
+.cert-item .image h4 {
+  text-align: left;
+}
+
 .certification-container .certification-nav a {
   display: inline-block;
   background: #fff;
@@ -755,6 +772,8 @@ body .carousel-inner > .active {
 }
 .portfolio-widget {
   margin: 50px 0;
+  padding-top: 20px;
+  border-top: 1px solid #f2f2f2;
 }
 .portfolio-widget .portfolio-info h3 {
   margin: 0;
