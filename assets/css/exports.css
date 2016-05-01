@@ -12,7 +12,6 @@
     --header-font-hover-bg-color:none;
     --header-font-active-color: white;
     --header-font-active-bg-color: blue;
-    color:
 }
 .isotope-hidden.isotope-item {
   pointer-events: none;
@@ -159,7 +158,7 @@ body .carousel-inner > .active {
   display: table;
   width: 100%;
   position: relative;
-  text-align: left;    
+  text-align: left;
 }
 .site-header .site-nav,
 .site-header .site-logo {
@@ -209,7 +208,7 @@ body .carousel-inner > .active {
 }
 .site-header .site-nav .main-menu li a:hover {
   color: var(--header-font-hover-color);
-  background: var(--header-font-hover-bg-color);      
+  background: var(--header-font-hover-bg-color);
 }
 .site-header .site-nav .main-menu li .has-sub > a:before {
   font-family: 'entypo';
