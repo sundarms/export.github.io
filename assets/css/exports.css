@@ -138,6 +138,7 @@ p {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
+
 body .carousel-inner > .active {
   width: 100%;
 }
@@ -146,6 +147,20 @@ body .carousel-inner > .active {
   z-index: 110;
 }
 .site-header {
+  display: flex;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 0px;
+}
+.site-nav-logo {
+  font-family: sans-serif;
+  background: #FFF;
+  font-size: 40px;
+  color: #B9171F;
+  white-space: nowrap;
+}
+.site-nav {
+  background: #FFF;
   display: table;
   width: 100%;
   position: relative;
@@ -237,7 +252,6 @@ body .carousel-inner > .active {
   border: 1px solid transparent;
   border-bottom: 1px solid #fff;
   padding: 10px 10px;
-  background: #fff;
   -webkit-border-radius: 4px 4px 0 0;
   -webkit-background-clip: padding-box;
   -moz-border-radius: 4px 4px 0 0;
@@ -277,11 +291,10 @@ body .carousel-inner > .active {
 }
 .site-header .site-nav .main-menu > li.active > a {
   display: inline-block;
-  color: #ff4e50;
-  background-color: darkgrey;
+  color: #B9171F;
 }
 .site-header .site-nav .main-menu > li.active > a > span:after {
-  background: rgba(255, 78, 80, 0.7);
+  background: rgba(183, 25, 31, 0.7);
 }
 .site-header .site-nav .main-menu > li.search {
   z-index: 10;
