@@ -158,6 +158,9 @@ body .carousel-inner > .active {
   font-size: 40px;
   color: #B9171F;
   white-space: nowrap;
+  display: inline-block;
+  text-align: center;
+  line-height: 1em;
 }
 .site-nav {
   background: #FFF;
@@ -2203,7 +2206,6 @@ section.blog .sidebar .sidebar-content .discussion-list li .details p {
 }
 .menu-trigger {
   display: block;
-  float: right;
   color: #FFF;
   background: #303641;
   text-align: center;
