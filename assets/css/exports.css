@@ -146,18 +146,17 @@ body .carousel-inner > .active {
   width: 100%;
 }
 .site-header-container {
-  position: relative;
-  z-index: 110;
+  background: #fff;
 }
 .site-header {
   display: flex;
   width: 100%;
   text-align: left;
   margin-bottom: 0px;
+  color: #B9171F;
 }
 .site-nav-logo {
   font-family: sans-serif;
-  background: #FFF;
   font-size: 28px;
   color: #B9171F;
   white-space: nowrap;
