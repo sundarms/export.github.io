@@ -202,6 +202,11 @@ body .carousel-inner > .active {
   text-transform: uppercase;
   line-height: 1;
 }
+.nav-menu li {
+  position: relative;
+  text-transform: uppercase;
+  line-height: 1;
+}
 .site-header .site-nav .main-menu li a {
   position: relative;
   display: inline-block;
