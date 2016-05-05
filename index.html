@@ -33,7 +33,7 @@
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav nav-menu pull-right">
             <li class="active">
-              <a href="index.html"><span class="fa fa-home">&nbsp;&nbsp;</span>Home</a>
+              <a href="index.html"><span class="fa fa-home home-icon">&nbsp;&nbsp;</span>Home</a>
             </li>
             <li class="dropdown">
               <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover="dropdown" data-toggle=
@@ -100,66 +100,50 @@
       </div>
     </div>
   </header>
-  <div class="wrap">
-  <section class="slider-container" >
-    <div class="container1">
-        <div class="row">
-          <div class="col-md-9">
-            <div class="slides">
-              <div class="slide">
-                <div class="slide-content">
-                  <h2>Welcome to MRM Exports</h2><small>With amazing products and competitive prices</small>
-                </div>
-                <div class="slide-image">
-                  <a href="#"><img class="img-responsive" src="assets/images/home.jpg"></a>
-                </div>
-              </div>
-              <div class="slide" data-bg="assets/images/slide-img-1-bg.png">
-              <div class="slide-image">
-                  <a href="#"><img class="img-responsive" src="assets/images/vegetable.jpg"></a>
-                </div>
-                <div class="slide-content text-right">
-                   <a href="#"><img class="img-responsive" src="assets/images/vegetable.jpg"></a>
-                  <h2>Fresh Vegetables</h2>
-                  <p></p>
-                </div>
-              </div>
-              <div class="slide">
-                <div class="slide-content">
-                  <h2>Spices</h2>
-                  <p></p>
-                </div>
-                <div class="slide-image">
-                  <a href="#"><img class="img-responsive" src="assets/images/spice.jpg"></a>
-                </div>
-              </div>
-              <div class="slide">
-                <div class="slide-content">
-                  <h2>Onion</h2>
-                  <p></p>
-                </div>
-                <div class="slide-image">
-                  <a href="#"><img class="img-responsive" src="assets/images/onion.jpg"></a>
-                </div>
-              </div>
-              <div class="slide">
-                <div class="slide-content">
-                  <h2>Coconut</h2>
-                  <p></p>
-                </div>
-                <div class="slide-image">
-                  <a href="#"><img class="img-responsive" src="assets/images/coconut.jpg"></a>
-                </div>
-              </div>
-              <div class="slides-nextprev-nav">
-                <a class="prev" href="#"><i class="entypo-left-open"></i></a>
-                <a class="next" href="#"><i class="entypo-right-open"></i></a>
-              </div>
+
+  <div class="col-lg-12 col-md-12 col-xs-12 slider-container">
+    <div id="home-slider" class="carousel slide" data-ride="carousel" data-interval="3000">
+      <div class="carousel-inner">
+          <ol class="carousel-indicators">
+    <li data-target="#home-slider" data-slide-to="0" class="active"></li>
+    <li data-target="#home-slider" data-slide-to="1"></li>
+    <li data-target="#home-slider" data-slide-to="2"></li>
+  </ol>
+        <div class="item active" style="background: url(http://www.best4.lv/image.php/t_73.jpg?width=1200&height=600&cropratio=1200:600&image=/txt-photo/t_73.jpg) no-repeat left center; background-size: cover;">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Welcome to MRM Exports</h1>
+              <p class="lead">With amazing products and competitive prices</p>
+              <a class="btn btn-large btn-primary" href="#browse-products">Browse Products</a>
+            </div>
+          </div>
+        </div>
+        <div class="item" style="background: url(assets/images/slides/vegetable.jpg) no-repeat left center; background-size: cover;">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Vegetables</h1>
+            </div>
+          </div>
+        </div>
+        <div class="item" style="background: url(assets/images/slides/spice.jpg) no-repeat left center; background-size: cover;">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Spices</h1>
             </div>
           </div>
         </div>
       </div>
-    </section>
+            <a class="left carousel-control" href="#home-slider" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#home-slider" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+
+    </div>
+  </div>
   <section class="features-blocks">
       <div class="container">
         <div class="row vspace">
@@ -263,7 +247,7 @@
     </div>
   </section>
   
-    <section class="portfolio-widget">
+    <section id="browse-products" class="portfolio-widget">
       <div class="container">
         <div class="row">
           
@@ -406,7 +390,7 @@
           </div>
         </div>
       </footer>
-  </div>
+
   <!-- JavaScripts initializations -->
  <script type="text/javascript">var switchTo5x=true;</script>
  <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
