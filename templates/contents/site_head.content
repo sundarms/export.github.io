@@ -6,6 +6,7 @@
   <link href="assets/images/favicon.ico" rel="icon">
   <title>STR_TITLE</title>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" id="style-resource-1" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet">
   <link href="assets/css/entypo.css" id="style-resource-2" rel="stylesheet">
   <link href="assets/css/exports.css" id="style-resource-3" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
