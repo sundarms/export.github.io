@@ -144,6 +144,7 @@ p {
 
 .site-header-container {
   background: #fff;
+  border-color: #B9171F;
 }
 .site-header {
   display: flex;
