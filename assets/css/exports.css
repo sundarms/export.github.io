@@ -142,6 +142,9 @@ p {
   box-shadow: none;
 }
 
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: #B9171F;
+}
 .site-header-container {
   background: #fff;
   border-color: #B9171F;
