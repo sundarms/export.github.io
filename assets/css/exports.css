@@ -2257,14 +2257,14 @@ section.blog .sidebar .sidebar-content .discussion-list li .details p {
     }
 
     .carousel .item {
-      height: 400px;
+      height: 470px;
     }
     .carousel img {
       position: absolute;
       top: 0;
       left: 0;
       min-width: 100%;
-      height: 400px;
+      height: 470px;
     }
 
     .carousel-caption {
