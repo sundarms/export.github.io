@@ -2294,3 +2294,8 @@ section.blog .sidebar .sidebar-content .discussion-list li .details p {
 .home-icon {
   color: #B9171F;
 }
+
+.share {
+  margin-top: 15px;
+  padding-left: 20px;
+}
