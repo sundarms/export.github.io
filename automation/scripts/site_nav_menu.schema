@@ -1,0 +1,17 @@
+site_header: MRM Exports
+menu:
+    Fruits:
+        - Pomagranate
+        - Melon
+    Grains:
+        - Rice
+    Vegetables:
+        - Coconut
+        - Drumstic
+        - Elephant Yam
+        - Onion
+    Other Products:
+        - Agal
+    About:
+        - Team
+        
