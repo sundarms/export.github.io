@@ -1,0 +1,33 @@
+hirarchy: vegetables
+product: coconut
+title: Coconut | MRM Exports
+prod_desc: Our coconuts are known for their sweet water, thick fleshy cream and unique natural sweet taste.
+			We export coconuts with and without husks. The coconuts have a distinct flavour.The fully matured coconuts are light brown in colour.
+slider:
+    - /vegetables/coconut/images/fullcoconut-400.jpg
+    - /vegetables/coconut/images/dc-main-400.jpg
+    - /vegetables/coconut/images/packing-400.jpg
+
+side_prods:
+    section_id_bg_img: /vegetables/coconut/images/cover-t.jpg
+    side_prod1:
+            name: Semi-Husked Coconut
+            desc2: |
+                Color 	: Light Brown
+				Maturity : Matured
+				Graded 	: Semi Husked
+				Weight 	: 500gms To 600gms
+				Nut Size 	: 12 To 13 Inches
+				Packaging & Load-ablity
+				Packing Bags : 25 Nuts Per Bag 
+				Load-ablity	: 20ft Container - 900 Bags 
+				Load-ablity : 40ft Container - 1800 Bags 
+            image: /vegetables/coconut/images/semi-husked.jpg
+    side_prod2: 
+            name: Desiccated Coconut
+            desc2: |
+            	High Fat : 50-65%
+				Low Fat  : 35-45%
+				Container capacity : 24 MT in 40 ft
+				Fcl Packaging : 50 or 25 kg PP bags or  poly Kraft paper bags
+            image: /vegetables/coconut/images/desi_coconut.jpg

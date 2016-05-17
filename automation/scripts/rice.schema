@@ -1,0 +1,36 @@
+hirarchy: grains
+product: rice
+title: Rice | MRM Exports
+prod_desc: Offer different varieties of raw, idli and basmati rice
+slider:
+    - /grains/rice/images/paddy-400.jpg
+    - /grains/rice/images/mrm-400.jpg
+    - /grains/rice/images/packing-400.jpg
+side_prods:
+    section_id_bg_img: /grains/rice/images/rice_bg.jpg
+    side_prod1:
+            name: Ponni Raw Rice
+            desc1: >
+                  This rice is thin and medium grain. It is light weight, silky and aromatic. 
+                  Because of its fragrant, it is considered to be of premium quality. 
+                  This rice is very famous in Singapore, Malaysia and United States. New and old corp are available.
+            desc2: |
+                Type : Raw
+                Length : 7.40 mm
+                Moisture : 13% max
+                Sortex : 100% max
+                Broken : 1- 2% max
+            image: /grains/rice/images/ponni-rice.jpg
+
+    side_prod2: 
+            name: Sona Masoori Rice
+            desc1: >
+                  This rice is thin and medium grain. It is light weight. New and old corp are available.
+            desc2: |
+                Type : Raw
+                Length : 7.40 mm
+                Moisture : 13% max
+                Sortex : 100% max
+                Broken : 1- 2% max
+            image: /grains/rice/images/sonamasoori1-290x220.jpg
+    
