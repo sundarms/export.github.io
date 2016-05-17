@@ -1,19 +1,19 @@
-proj_root: /Users/jayabal/git/MRMExports.github.io/
+proj_root: /Users/sundarms/github/sundarms.github.io/
 hirarchy: grains
-product: daal
-title: Daal | MRM Exports
-prod_desc: Fine..Amazing daal
+product: Rice
+title: Rice | MRM Exports
+prod_desc: Fine..Amazing Rice
 slider:
-    - /grains/daal/images/paddy-400.jpg
-    - /grains/daal/images/paddy-400.jpg
-    - /grains/daal/images/paddy-400.jpg
-    - /grains/daal/images/paddy-400.jpg
-    - /grains/daal/images/paddy-400.jpg
+    - /grains/rice/images/paddy-400.jpg
+    - /grains/rice/images/paddy-400.jpg
+    - /grains/rice/images/paddy-400.jpg
+    - /grains/rice/images/paddy-400.jpg
+    - /grains/rice/images/paddy-400.jpg
 side_prods:
-    section_id_bg_img: /grains/daal/images/rice_bg.jpg
-    #section_id_bg_img: /grains/daal/images/paddy-400.jpg
+    section_id_bg_img: /grains/rice/images/rice_bg.jpg
+    #section_id_bg_img: /grains/rice/images/paddy-400.jpg
     side_prod1:
-            name: Urud daal
+            name: Urud rice
             desc1: >
                   This rice is thin and medium grain. It is light weight, silky and aromatic. 
                   Because of its fragrant, it is considered to be of premium quality. 
@@ -24,10 +24,10 @@ side_prods:
                 Moisture : 13% max
                 Sortex : 100% max
                 Broken : 1- 2% max
-            image: /grains/daal/images/sonamasoori1-290x220.jpg
+            image: /grains/rice/images/sonamasoori1-290x220.jpg
 
     side_prod2: 
-            name: Toor daal
+            name: Toor rice
             desc1: >
                   TOOOOOOOOOR This rice is thin and medium grain. It is light weight, silky and aromatic. 
                   Because of its fragrant, it is considered to be of premium quality. 
@@ -38,11 +38,11 @@ side_prods:
                 Moisture : 13% max
                 Sortex : 100% max
                 Broken : 1- 2% max
-            image: /grains/daal/images/sonamasoori1-290x220.jpg
+            image: /grains/rice/images/sonamasoori1-290x220.jpg
     side_prod3: 
-            name: Moong  daal
+            name: Moong  rice
             desc1: >
-                  Moog DaalMoog DaalMoog Daal   This rice is thin and medium grain. It is light weight, silky and aromatic. 
+                  Moog riceMoog riceMoog rice   This rice is thin and medium grain. It is light weight, silky and aromatic. 
                   Because of its fragrant, it is considered to be of premium quality. 
                   This rice is very famous in Singapore, Malaysia and United States. New and old corp are available.
             desc2: |
@@ -51,5 +51,5 @@ side_prods:
                 Moisture : 13% max
                 Sortex : 100% max
                 Broken : 1- 2% max
-            image: /grains/daal/images/sonamasoori1-290x220.jpg
+            image: /grains/rice/images/sonamasoori1-290x220.jpg
      
