@@ -1,5 +1,5 @@
 # Project root directory
-PROJ_ROOT = '/Users/jayabal/git/MRMExports.github.io/'
+PROJ_ROOT = '/Users/jayabal/git/sundarms.github.io-1/'
 
 # Content files
 CONTENTS = PROJ_ROOT + 'automation/contents/'
@@ -18,6 +18,10 @@ TEMPLATES = PROJ_ROOT + 'automation/templates/'
 PROD_HTML_TMPLT_FILE = TEMPLATES + 'prod.html.template'
 SUBPROD_W_SIDEMENU_TMPLT_FILE = TEMPLATES + 'sub_prod_w_sidemenu.html.template'
 SUBPROD_TMPLT_FILE = TEMPLATES + 'sub_prod.html.template'
+SIDEPROD_MENU_TMPLT_FILE = TEMPLATES + 'sideprod_menu.html.template'
+
+# Default Nav menu schema
+SITE_NAVIGATION_MENU_SCHEMA = 'site_nav_menu.schema'
 
 # Nav menu templates
 NAV_TMPLT_FILE = TEMPLATES + 'site_nav_menu.template'
@@ -25,6 +29,4 @@ NAV_MENU_DROPDN_TMPLT_FILE = TEMPLATES + 'site_nav_menu_dropdn.template'
 NAV_MENU_DROPDN_ITEMS_TMPLT_FILE = TEMPLATES + 'site_nav_menu_dropdn_items.template'
 
 # Nav menu content generated file
-SITE_NAVIGATION_FILE_GEN = SITE_NAVIGATION_FILE
-
-
+#SITE_NAVIGATION_FILE_GEN = SITE_NAVIGATION_FILE
