@@ -24,10 +24,9 @@
 <section ###section-id-product###>
     <div class="blog">
     <div class="row">
-        <div class="contact-us">
+    <div class="contact-us">
 	###side_prods###
 	</div><!--/.contact-us-->
-
 	</div><!--/.row-->
 </div>
 </section><!--/#blog-->
@@ -36,11 +35,9 @@
 ###site_footer###
 <!--/#footer-->
 
-
 <!--Start of scripts -->
 ###product_jscript###
 <!--/#scripts -->
-
 
 <!--Start of google analytics -->
 ###google_anlytics###
