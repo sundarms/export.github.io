@@ -9,7 +9,7 @@
 ###site_navigation###
 <!--/header navigation-->
 
-<section id="recent-works>
+<section id="recent-works">
     <div class="container">
 	<div class="nav-fixed wow fadeInDown">
    		<h2>###product###</h2>
