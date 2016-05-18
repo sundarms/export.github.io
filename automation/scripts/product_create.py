@@ -7,6 +7,7 @@ from shutil import copyfile
 from buildfns_lib import *
 from config import *
 from site_nav_menu_create import build_menus
+from yaml_ordered_dict import OrderedDictYAMLLoader
 
 def build_site_head(outfile):
     replace_text_with_file_context({'site_head':SITE_HEAD_FILE}, outfile)
@@ -120,7 +121,7 @@ def main():
     if not opt.navmenufile:
         navmenufile = SITE_NAVIGATION_MENU_SCHEMA
 
-    nav_menu_conf = yaml.load(open(navmenufile))
+    nav_menu_conf = yaml.load(open(navmenufile), OrderedDictYAMLLoader)
 
     if not opt.outfile:
         outfile = '{}/{}/{}/{}.html'.format(PROJ_ROOT,

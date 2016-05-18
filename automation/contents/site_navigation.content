@@ -10,44 +10,16 @@
                     <li>
                         <a href="/index.html"><span class="fa fa-home home-icon">&nbsp;&nbsp;</span>Home</a>
                     </li>
-		    <li class="dropdown">
+		    <li><a href="/rts/rts.html">Rts</a></li><li class="dropdown">
   <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover="dropdown" data-toggle="dropdown" href="#">
-    Other Products<b class="caret"></b>
+    Fruits<b class="caret"></b>
   </a>
   <ul class="dropdown-menu">
     <li>
-  <a href="/other products/agal/agal.html">Agal</a>
-</li>
-
-  </ul>
-</li>
-<li class="dropdown">
-  <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover="dropdown" data-toggle="dropdown" href="#">
-    Vegetables<b class="caret"></b>
-  </a>
-  <ul class="dropdown-menu">
-    <li>
-  <a href="/vegetables/coconut/coconut.html">Coconut</a>
+  <a href="/fruits/pomegranate/pomegranate.html">Pomegranate</a>
 </li>
 <li>
-  <a href="/vegetables/drumstic/drumstic.html">Drumstic</a>
-</li>
-<li>
-  <a href="/vegetables/elephant yam/elephant yam.html">Elephant Yam</a>
-</li>
-<li>
-  <a href="/vegetables/onion/onion.html">Onion</a>
-</li>
-
-  </ul>
-</li>
-<li class="dropdown">
-  <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover="dropdown" data-toggle="dropdown" href="#">
-    About<b class="caret"></b>
-  </a>
-  <ul class="dropdown-menu">
-    <li>
-  <a href="/about/team/team.html">Team</a>
+  <a href="/fruits/melon/melon.html">Melon</a>
 </li>
 
   </ul>
@@ -71,19 +43,47 @@
 </li>
 <li class="dropdown">
   <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover="dropdown" data-toggle="dropdown" href="#">
-    Fruits<b class="caret"></b>
+    Vegetables<b class="caret"></b>
   </a>
   <ul class="dropdown-menu">
     <li>
-  <a href="/fruits/pomegranate/pomegranate.html">Pomegranate</a>
+  <a href="/vegetables/coconut/coconut.html">Coconut</a>
 </li>
 <li>
-  <a href="/fruits/melon/melon.html">Melon</a>
+  <a href="/vegetables/drumstic/drumstic.html">Drumstic</a>
+</li>
+<li>
+  <a href="/vegetables/elephantyam/elephantyam.html">Elephant Yam</a>
+</li>
+<li>
+  <a href="/vegetables/onion/onion.html">Onion</a>
 </li>
 
   </ul>
 </li>
+<li class="dropdown">
+  <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover="dropdown" data-toggle="dropdown" href="#">
+    Other Products<b class="caret"></b>
+  </a>
+  <ul class="dropdown-menu">
+    <li>
+  <a href="/otherproducts/agal/agal.html">Agal</a>
+</li>
 
+  </ul>
+</li>
+<li class="dropdown">
+  <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover="dropdown" data-toggle="dropdown" href="#">
+    About<b class="caret"></b>
+  </a>
+  <ul class="dropdown-menu">
+    <li>
+  <a href="/about/team/team.html">Team</a>
+</li>
+
+  </ul>
+</li>
+<li><a href="/contactus/contactus.html">Contact us</a></li>
 		</ul>
             </div>
         </div>
